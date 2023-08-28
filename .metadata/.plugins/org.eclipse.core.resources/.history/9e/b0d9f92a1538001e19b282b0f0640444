@@ -1,0 +1,10 @@
+package programming.String_programs_8;
+
+public class Count_Vowels_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

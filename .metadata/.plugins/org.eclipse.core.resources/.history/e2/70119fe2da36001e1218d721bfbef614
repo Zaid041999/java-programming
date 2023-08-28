@@ -1,0 +1,30 @@
+package progamming.array_programs_7;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Duplicate_value_In_Array_12 {
+
+	public static void main(String[] args) {
+		//Brute force method
+		/*int[] a= {3,2,1,3,4,2};
+		System.out.println("Duplicate elements in array");
+		for (int i = 0; i < a.length; i++) {
+			for(int j=i+1;j<a.length;j++) {
+				if(a[i]==a[j] && i!=j) {
+					System.out.print(a[j]+" ");
+				}
+			}
+		}*/
+		int[] a= {3,2,1,3,4,2,3};
+		Set <Integer> h = new HashSet<>();
+		System.out.print("Duplicate number in array :");
+		for(int no :a) {
+			
+			if(h.add(no)==false) {
+				System.out.print(no+" ");
+			}
+		}
+	}
+
+}

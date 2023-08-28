@@ -1,0 +1,10 @@
+package progamming.array_programs_7;
+
+public class Insertion_Sort_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

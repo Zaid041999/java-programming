@@ -1,0 +1,10 @@
+package progamming.array_programs_7;
+
+public class First_Duplicate_Element_In_Array_13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

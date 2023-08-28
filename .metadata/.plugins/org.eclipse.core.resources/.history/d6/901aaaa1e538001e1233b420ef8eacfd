@@ -1,0 +1,30 @@
+package programming.String_programs_8;
+
+public class Occorence_Of_Letter_In_String_10 {
+
+	public static void main(String[] args) {
+		String s ="chocolate";
+		char []c= s.toCharArray();
+		boolean []b=new boolean[c.length];
+		for (int i = 0; i < b.length; i++) {
+			if(b[i]==false)
+			{	
+				int count = 0;
+				for (int j = i+1; j < b.length; j++) {
+					if(c[i]==c[j]) {
+						count= count+1;
+						b[j]=true;
+						break;
+					}
+					
+					
+				}
+				
+				System.out.print(c[i]+" "+count);	
+					
+					
+			}
+		}
+	}
+
+}
